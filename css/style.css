@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: auto; 
+    padding: auto;
+
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+main {
+    width: 100%;
+}
+.discs {
+    width: 90%;
+    height: 200px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.disc {
+    width: 20%;
+    padding: 10px;
+}
+
+img {
+    width: 100%; 
+}
+h2 {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
